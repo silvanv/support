@@ -1,3 +1,93 @@
 [submodule "vim/fonts"]
 	path = vim/fonts
 	url = https://github.com/powerline/fonts.git
+[submodule "nerdtree"]
+	path = nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim-airline"]
+	path = vim-airline
+	url = https://github.com/bling/vim-airline
+[submodule "vim-cljfmt"]
+	path = vim-cljfmt
+	url = https://github.com/venantius/vim-cljfmt.git
+[submodule "vim-bbye"]
+	path = vim-bbye
+	url = https://github.com/moll/vim-bbye.git
+[submodule "syntastic"]
+	path = syntastic
+	url = git://github.com/scrooloose/syntastic.git
+[submodule "vim-clojure-highlight"]
+	path = vim-clojure-highlight
+	url = git://github.com/guns/vim-clojure-highlight.git
+[submodule "vim-clojure-static"]
+	path = vim-clojure-static
+	url = git://github.com/guns/vim-clojure-static.git
+[submodule "vim-colors-solarized"]
+	path = vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "vim-dispatch"]
+	path = vim-dispatch
+	url = git://github.com/tpope/vim-dispatch.git
+[submodule "vim-eastwood"]
+	path = vim-eastwood
+	url = git://github.com/venantius/vim-eastwood.git
+[submodule "vim-fireplace"]
+	path = vim-fireplace
+	url = git://github.com/tpope/vim-fireplace.git
+[submodule "vim-leiningen"]
+	path = vim-leiningen
+	url = git://github.com/tpope/vim-leiningen.git
+[submodule "vim-lucius"]
+	path = vim-lucius
+	url = git://github.com/jonathanfilip/vim-lucius.git
+[submodule "vim-niji"]
+	path = vim-niji
+	url = git://github.com/amdt/vim-niji.git
+[submodule "vim-projectionist"]
+	path = vim-projectionist
+	url = git://github.com/tpope/vim-projectionist.git
+[submodule "vim/bundle/vim-bbye"]
+	path = vim/bundle/vim-bbye
+	url = git://github.com/moll/vim-bbye.git
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/vim-airline"]
+	path = vim/bundle/vim-airline
+	url = git://github.com/bling/vim-airline
+[submodule "vim/bundle/vim-cljfmt"]
+	path = vim/bundle/vim-cljfmt
+	url = git://github.com/venantius/vim-cljfmt.git
+[submodule "vim/bundle/vim-clojure-highlight"]
+	path = vim/bundle/vim-clojure-highlight
+	url = git://github.com/guns/vim-clojure-highlight.git
+[submodule "vim/bundle/vim-clojure-static"]
+	path = vim/bundle/vim-clojure-static
+	url = git://github.com/guns/vim-clojure-static.git
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/bundle/vim-dispatch"]
+	path = vim/bundle/vim-dispatch
+	url = git://github.com/tpope/vim-dispatch.git
+[submodule "vim/bundle/vim-eastwood"]
+	path = vim/bundle/vim-eastwood
+	url = git://github.com/venantius/vim-eastwood.git
+[submodule "vim/bundle/vim-fireplace"]
+	path = vim/bundle/vim-fireplace
+	url = git://github.com/tpope/vim-fireplace.git
+[submodule "vim/bundle/vim-leiningen"]
+	path = vim/bundle/vim-leiningen
+	url = git://github.com/tpope/vim-leiningen.git
+[submodule "vim/bundle/vim-lucius"]
+	path = vim/bundle/vim-lucius
+	url = git://github.com/jonathanfilip/vim-lucius.git
+[submodule "vim/bundle/vim-niji"]
+	path = vim/bundle/vim-niji
+	url = git://github.com/amdt/vim-niji.git
+[submodule "vim/bundle/vim-projectionist"]
+	path = vim/bundle/vim-projectionist
+	url = git://github.com/tpope/vim-projectionist.git
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git

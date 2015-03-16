@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tmux has-session -d ide
+tmux has-session -t ide
 if [ $? != 0 ]
 then
   tmux new-session -s ide -n editor -d
