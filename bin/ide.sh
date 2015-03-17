@@ -12,8 +12,10 @@ then
   tmux select-window -t ide:1
   tmux select-pane -t ide:.1
 
+  tmux send-keys -t ide:1.2 'lein repl; tmux wait-for -S aa' C-m
+  # tmux wait-for aa
+  sleep 5
   tmux send-keys -t ide:1.1 'vi' C-m
-  tmux send-keys -t ide:1.2 'lein repl' C-m
   # tmux send-keys -t ide:2.1 'pwd' C-m
 fi
 tmux attach -t ide
