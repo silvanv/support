@@ -6,7 +6,10 @@
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "vim-airline"]
 	path = vim-airline
-	url = https://github.com/bling/vim-airline
+  url = https://github.com/bling/vim-airline
+[submodule "vim-airline-themes"]
+	path = vim-airline-themes
+  url = https://github.com/vim-airline/vim-airline-themes
 [submodule "vim-cljfmt"]
 	path = vim-cljfmt
 	url = https://github.com/venantius/vim-cljfmt.git

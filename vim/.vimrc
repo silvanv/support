@@ -58,6 +58,7 @@ set clipboard=unnamed
 " Configure airline
 " --------------------------------------------------------
 let g:airline_powerline_fonts = 1
+let g:airline_theme='bubblegum'
 
 " Configure nerd tree
 " --------------------------------------------------------
