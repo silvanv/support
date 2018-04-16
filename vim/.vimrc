@@ -84,6 +84,37 @@ else
     let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif
 
+" Goyo
+" ---------------------------------------------------------
+function! s:goyo_enter()
+  silent !tmux set status off
+  silent !tmux list-panes -F '\#F' | grep -q Z || tmux resize-pane -Z
+  set noshowmode
+  set noshowcmd
+  set scrolloff=999
+  Limelight
+  " ...
+endfunction
+
+function! s:goyo_leave()
+  silent !tmux set status on
+  silent !tmux list-panes -F '\#F' | grep -q Z && tmux resize-pane -Z
+  set showmode
+  set showcmd
+  set scrolloff=5
+  Limelight!
+  " ...
+endfunction
+
+let g:goyo_width=100
+
+autocmd! User GoyoEnter nested call <SID>goyo_enter()
+autocmd! User GoyoLeave nested call <SID>goyo_leave()
+
+" Limelight
+" ---------------------------------------------------------
+let g:limelight_default_coefficient = 0.35
+
 " Synthastic
 " ---------------------------------------------------------
 " set statusline+=%#warningmsg#
@@ -101,6 +132,8 @@ endif
 map <C-n> :NERDTreeToggle<CR>
 
 map <C-l> ::set number! number?<CR>
+
+map <C-m> :Goyo<CR>
 
 
 
